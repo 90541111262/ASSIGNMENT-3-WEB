@@ -1,0 +1,36 @@
+body{
+  font-family:Arial, Helvetica, sans-serif
+  font-size 18px;
+}
+
+header, footer {
+  background-color: #00fbff;
+}
+
+.site-title {
+  color: rgb(17, 91, 202);
+}
+
+#my-image {
+  box-shadow: 0 0 6px 1px rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: square;
+}
+
+li:nth-child(odd) {
+  background-color: #00fbff;
+}
+a{
+  text-decoration: none;
+  background-color: #00fbff;
+border: 2px solid black;
+padding: 5px 20px;
+}
+a:hover,
+a:focus {
+background-color: rgb(255, 0, 60);
+}
+
+
